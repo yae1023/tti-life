@@ -1,0 +1,152 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*アコーディオンメニュー作成したいができない・・・*/
+.menu {
+    max-width: 600px;
+}
+.menu a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+}
+label {
+    display: block;
+    margin: 0 0 4px 0;
+    padding : 15px;
+    line-height: 1;
+    color :#fff;
+    background : green;
+    cursor :pointer;
+}
+input {
+    display: none;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    background :#f4f4f4;
+    list-style: none;
+}
+.menu li {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#menu_bar:checked ~ #links01 li{
+    height: 54px;
+    opacity: 1;
+}
+/*ここまで失敗アコーディオン*/
+
+
+body{
+  margin:10px 10%;
+}
+.top-tytle{ /*ある在校生の豊工日記*/
+  letter-spacing: 5px;
+  text-align:center;
+  color:#7CFC00;
+  text-shadow:2px 2px #550000;
+}
+.b{ /*〇.豊田工業大学生活の日記(学部〇年編)*/
+  color: #888888;
+  border-bottom: 5px solid #008000;
+  border-left:2px solid #008000;;
+  font-size: 30px;
+}
+h2{
+  color: #006600;
+  font-size: 25px;
+}
+
+.block_price_header{  /*豊田工業大学ホームページはこちら*/
+  text-align:center;
+}
+
+.tti-hp{  /*豊田工業大学HPボタン*/
+  padding:5px;
+  border-radius:5px;
+  color:#FFFFFF;
+  font-weight: bold;
+  background-color:rgba(60,179,113,0.8);
+  cursor:pointer;
+  box-shadow:0 5px #AAAAAA;
+  transition:all 0.5s;
+}
+.tti-hp:hover{
+  background-color:rgba(60,179,113,1);
+}
+.tti-hp:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+}
+
+.fa-facebook{
+  padding:5px;
+  border-radius:5px;
+  color:#FFFFCC;
+  font-weight: bold;
+  background-color:rgba(51,153,255,0.8);
+  cursor:pointer;
+  box-shadow:0 5px #AAAAAA;
+  transition:all 0.5s;
+}
+.fa-facebook:hover{
+  background-color:rgba(51,153,255,1);
+}
+.fa-facebook:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+}
+
+.tpbtn{
+  text-align: center;
+  padding:5px;
+  border-radius:5px;
+  color:#FFFFCC;
+  font-weight: bold;
+  background-color:rgba(102,204,102,0.8);
+  cursor:pointer;
+  box-shadow:0 5px #AAAAAA;
+  transition:all 0.5s;
+}
+.tpbtn:hover{
+  background-color:rgba(102,204,102,1);
+}
+.tpbtn:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+}
+
+
+#sidebarr { /*サイドメニューをつくりたいができん*/
+  width: 100px;
+  margin: 0 auto;
+  display:flex;
+  flex-wrap:wrap;
+}
+.menu-list1{
+  width:30%;
+}
