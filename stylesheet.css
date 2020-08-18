@@ -1,0 +1,122 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  margin:3%;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+/*アコーディオンメニュー作成したいができない・・・*/
+
+
+
+
+.top-tytle{ /*ある在校生の豊工日記*/
+  letter-spacing: 5px;
+  text-align:center;
+  color:#7CFC00;
+  text-shadow:2px 2px #550000;
+}
+.b{ /*〇.豊田工業大学生活の日記(学部〇年編)*/
+  color: #888888;
+  border-bottom: 5px solid #008000;
+  border-left:2px solid #008000;;
+  font-size: 30px;
+}
+h2{
+  color: #006600;
+  font-size: 25px;
+}
+
+.block_price_header{  /*豊田工業大学ホームページはこちら*/
+  text-align:center;
+}
+
+.tti-hp{  /*豊田工業大学HPボタン*/
+  padding:5px;
+  border-radius:5px;
+  color:#FFFFFF;
+  font-weight: bold;
+  background-color:rgba(60,179,113,0.8);
+  cursor:pointer;
+  box-shadow:0 5px #AAAAAA;
+  transition:all 0.5s;
+}
+.tti-hp:hover{
+  background-color:rgba(60,179,113,1);
+}
+.tti-hp:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+}
+
+.fa-facebook{
+  padding:5px;
+  border-radius:5px;
+  color:#FFFFCC;
+  font-weight: bold;
+  background-color:rgba(51,153,255,0.8);
+  cursor:pointer;
+  box-shadow:0 5px #AAAAAA;
+  transition:all 0.5s;
+}
+.fa-facebook:hover{
+  background-color:rgba(51,153,255,1);
+}
+.fa-facebook:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+}
+
+.tpbtn{
+  text-align: center;
+  padding:5px;
+  border-radius:5px;
+  color:#FFFFCC;
+  font-weight: bold;
+  background-color:rgba(102,204,102,0.8);
+  cursor:pointer;
+  box-shadow:0 5px #AAAAAA;
+  transition:all 0.5s;
+}
+.tpbtn:hover{
+  background-color:rgba(102,204,102,1);
+}
+.tpbtn:active{
+  position:relative;
+  top:7px;
+  box-shadow:none;
+}
+
+
+#sidebarr { /*サイドメニューをつくりたいができん*/
+  width: 100px;
+  margin: 0 auto;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.flex{/*横並び*/
+  display:flex;
+
+}
+.flex1{
+width:100%;
+}
+.flex2{
+  margin:5%;
+  width:25%;
+}
